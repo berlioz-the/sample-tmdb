@@ -1,0 +1,14 @@
+- kind: policy
+  name: extend-grafana
+  cluster: tmdb
+  value: false
+
+- kind: policy
+  name: extend-prometheus
+  cluster: tmdb
+  value: false
+  
+- kind: policy
+  name: distributed-tracing-provider
+  cluster: tmdb
+  value: none

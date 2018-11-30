@@ -1,0 +1,10 @@
+- kind: policy
+  name: service-endpoint-override
+  cluster: tmdb
+  service: api
+  endpoint: default
+  override: true
+  peers:
+    - address: api.themoviedb.org
+      port: 80
+      protocol: http

@@ -1,0 +1,11 @@
+---
+kind: service
+cluster: tmdb
+name: api
+
+unmanaged: true
+
+provides:
+    default:
+        port: 80
+        protocol: http
